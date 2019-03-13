@@ -1,0 +1,67 @@
+cmake_minimum_required(VERSION 3.13)
+project(C__)
+
+set(CMAKE_CXX_STANDARD 17)
+
+include_directories(.)
+
+add_executable(C__
+        Game.cpp
+        Game.h
+        GameRunner.cpp
+        TestBase.cpp
+        TestBase.h
+        TestRunner.cpp
+        TestRunner.h
+        RandomTest.cpp
+        RandomTest.h
+        RandomBase.cpp
+        RandomBase.h
+        Configuration.h
+        AnswerLogicTest.cpp
+        AnswerLogicTest.h
+        AnswerLogic.cpp
+        AnswerLogic.h
+        Player.cpp
+        Player.h
+        Exceptions.cpp
+        Exceptions.h
+        PlayerTest.cpp
+        PlayerTest.h
+        QuestionProviderTest.cpp
+        QuestionProviderTest.h
+        QuestionProvider.cpp
+        QuestionProvider.h
+        Enumerations.h
+        QuestionList.h
+        StringBuilder.cpp
+        StringBuilder.h
+        Console.h
+        PlayerManagerTest.cpp
+        PlayerManagerTest.h
+        PlayerManager.cpp
+        PlayerManager.h
+        GameTest.cpp
+        GameTest.h
+        Main.cpp
+        GameRunner.h
+        TestBaseTest.cpp
+        TestBaseTest.h
+        FixedLegacyRandom.cpp
+        FixedLegacyRandom.h
+        TimeBasedLegacyRandom.cpp
+        TimeBasedLegacyRandom.h
+        MersenneTwisterRandom.cpp
+        MersenneTwisterRandom.h
+        LegacyRandomBase.cpp
+        LegacyRandomBase.h
+        RandomFactory.cpp
+        RandomFactory.h
+        RollProvider.cpp
+        RollProvider.h
+        RollProviderTest.cpp
+        RollProviderTest.h
+        PenaltyBoxLogic.cpp
+        PenaltyBoxLogic.h
+        PenaltyBoxLogicTest.cpp
+        PenaltyBoxLogicTest.h)
